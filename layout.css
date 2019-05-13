@@ -223,8 +223,9 @@ iframe {
 }
 
 .column {
+  display: block;
   float: left;
-  width: 31%;
+  width: 625px;
   padding: 15px;
 }
 
@@ -232,5 +233,5 @@ iframe {
 .row::after {
   content: "";
   clear: both;
-  display: table;
+  display: block;
 }
