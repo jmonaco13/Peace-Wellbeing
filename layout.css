@@ -8,7 +8,7 @@
 
 nav {
   float: none;
-  border-radius:25px;
+  border-radius: 25px;
 }
 
 header::after {
@@ -34,10 +34,11 @@ nav .navli {
   margin-left: 70px;
   padding: 20px;
 }
+
 /* Home Navigation Bar */
 .home-header {
   background: #3F3535;
-  border-radius:5px;
+  border-radius: 5px;
 }
 
 nav a {
@@ -51,7 +52,7 @@ nav a:hover {
 /* Listen Navigation Bar */
 .listen-header {
   background: #4A6E89;
-  border-radius:5px;
+  border-radius: 5px;
 }
 
 #listen-selection a {
@@ -65,7 +66,7 @@ nav a:hover {
 /* Learn Navigation Bar */
 .learn-header {
   background: #68A868;
-  border-radius:5px;
+  border-radius: 5px;
 }
 
 #learn-selection a {
@@ -79,15 +80,15 @@ nav a:hover {
 /* inspire Navigation Bar */
 .inspire-header {
   background: #F0F8FF;
-  border-radius:5px;
+  border-radius: 5px;
 }
 
 #inspire-selection a {
-  color:#383838;
+  color: #383838;
 }
 
 #inspire-selection a:hover {
-  color:#9875A0;
+  color: #9875A0;
 }
 
 /* Background Styles */
@@ -160,7 +161,6 @@ table {
   margin-left: auto;
   margin-right: auto;
   width: 20%;
-
 }
 
 table, th, td {
@@ -207,18 +207,30 @@ p {
 }
 
 iframe {
-display: block;
-text-align: center;
-margin-left: auto;
-margin-right: auto;
-
+  display: block;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 #focuss {
-padding-top: 100px;
-padding-bottom:650px;
+  padding-top: 100px;
+  padding-bottom: 650px;
 }
 
 #learn-stuff {
   padding-top: 1300px;
+}
+
+.column {
+  float: left;
+  width: 31%;
+  padding: 15px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
 }
